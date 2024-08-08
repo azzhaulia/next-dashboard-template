@@ -20,7 +20,7 @@ export default function Page() {
           </p>
           <Link
             href="/login"
-            className="flex items-center self-start gap-5 px-6 py-3 text-sm font-medium text-white transition-colors bg-red-500 rounded-lg hover:bg-blue-400 md:text-base"
+            className="flex items-center self-start gap-5 px-6 py-3 text-sm font-medium text-white transition-colors bg-red-500 rounded-lg hover:bg-red-700 md:text-base"
           >
             <span>Log in</span>
           </Link>
@@ -28,18 +28,18 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
           <img
-            src="hero-desktop.png"
-            alt="Screenshots of the dashboard project showing desktop version"
+            src="/hero-desktop.png"
+            width={1000}
+            height={760}
             className="hidden md:block"
-            width="1000"
-            height="760"
+            alt="Screenshots of the dashboard project showing desktop version"
           />
           <img
-            src="hero-mobile.png"
-            alt="Screenshots of the dashboard project showing desktop version"
+            src="/hero-mobile.png"
+            width={560}
+            height={620}
             className="block md:hidden"
-            width="560"
-            height="620"
+            alt="Screenshots of the dashboard project showing desktop version"
           />
         </div>
         <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black" />
