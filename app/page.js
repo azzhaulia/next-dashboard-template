@@ -2,11 +2,10 @@ import AcmeLogo from "@/app/ui/acme-logo";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
-      <div className="flex h-20 shrink-0 items-end rounded-lg bg-red-500 p-4 md:h-52">
+      <div className="flex h-20 shrink-0 items-end rounded-lg bg-red-700 p-4 md:h-52">
         {<AcmeLogo />}
       </div>
       <div className="flex flex-col gap-4 mt-4 grow md:flex-row">
@@ -20,7 +19,7 @@ export default function Page() {
           </p>
           <Link
             href="/login"
-            className="flex items-center self-start gap-5 px-6 py-3 text-sm font-medium text-white transition-colors bg-red-500 rounded-lg hover:bg-red-700 md:text-base"
+            className="flex items-center self-start gap-5 px-6 py-3 text-sm font-medium text-white transition-colors bg-red-700 rounded-lg hover:bg-red-700 md:text-base"
           >
             <span>Log in</span>
           </Link>
